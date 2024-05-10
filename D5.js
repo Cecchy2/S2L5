@@ -127,3 +127,104 @@ while (numericArray[i] !== 66) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const alfabeto = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "z",
+];
+const numeroPosizione = [];
+let posizione = 0;
+for (let i = 0; i < alfabeto.length; i++) {
+  const letteraCorrente = alfabeto[i];
+  /* console.log(letteraCorrente); */
+  const letteraArrayCorrente = charactersArray[i];
+  /* console.log(letteraArrayCorrente); */
+  switch (letteraArrayCorrente) {
+    case "a":
+      posizione = alfabeto.indexOf("a");
+      break;
+    case "b":
+      posizione = alfabeto.indexOf("b");
+      break;
+    case "c":
+      posizione = alfabeto.indexOf("c");
+      break;
+    case "d":
+      posizione = alfabeto.indexOf("d");
+      break;
+    case "e":
+      posizione = alfabeto.indexOf("e");
+      break;
+    case "f":
+      posizione = alfabeto.indexOf("f");
+      break;
+    case "g":
+      posizione = alfabeto.indexOf("g");
+      break;
+    case "h":
+      posizione = alfabeto.indexOf("h");
+      break;
+    case "i":
+      posizione = alfabeto.indexOf("i");
+      break;
+    case "l":
+      posizione = alfabeto.indexOf("l");
+      break;
+    case "m":
+      posizione = alfabeto.indexOf("m");
+      break;
+    case "n":
+      posizione = alfabeto.indexOf("n");
+      break;
+    case "o":
+      posizione = alfabeto.indexOf("o");
+      break;
+    case "p":
+      posizione = alfabeto.indexOf("p");
+      break;
+    case "q":
+      posizione = alfabeto.indexOf("q");
+      break;
+    case "r":
+      posizione = alfabeto.indexOf("r");
+      break;
+    case "s":
+      posizione = alfabeto.indexOf("s");
+      break;
+    case "t":
+      posizione = alfabeto.indexOf("t");
+      break;
+    case "u":
+      posizione = alfabeto.indexOf("u");
+      break;
+    case "v":
+      posizione = alfabeto.indexOf("v");
+      break;
+    case "z":
+      posizione = alfabeto.indexOf("z");
+      break;
+
+    default:
+      break;
+  }
+  numeroPosizione.push(posizione);
+}
+console.log(numeroPosizione);
