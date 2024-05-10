@@ -30,7 +30,7 @@ header img{
     font-size: 0.9em;
 }
 main{
-    height: 186vh;
+    height: 165;
     width: 95vw;
     padding: 0 2.5vw 0 2.5vw;
     background-color: rgb(233, 237, 238);
@@ -58,8 +58,8 @@ main{
     padding: 7vh 0 2vh;    
 }
 #sect3{
-    height: 50vh;
-    margin-top: 3vh;
+    height: 45vh;
+    margin-top: 2vh;
     background-color: white;
     
 }
@@ -78,12 +78,12 @@ a{
     font-weight: 700;
 }
 .cards{
-    width: 20vw;
-    height: 41vh; 
+    width: 22vw;
+    height: 35vh; 
     border-radius: 20px;   
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     display: inline-block;
-    margin: 2% 0% 2% 3%;
+    margin: 2% 0% 2% 1%;
 }
 #card1{
     background-image: url(/images/img_1.jpg);
@@ -110,7 +110,7 @@ a{
     background-position: center;
 }
 #sect4{
-    height: 48vh;
+    height: 38vh;
     background-image: url(/images/img_9.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -119,11 +119,11 @@ a{
 #bottomText{
     padding-top: 0;
     text-align: center;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 
 }
 #sect5{
-    height: 48vh;
+    height: 38vh;
     background-image: url(/images/img_10.png);
     background-size: contain;
     background-repeat: no-repeat;   
@@ -133,11 +133,12 @@ a{
     height: 40px;
     text-align: center;
     
+    
 }
 #bannerBottom a {
     color: white;
     text-decoration: underline;
-    padding-top: 1%;
+    
 }
 footer{
     height: 15vh;
