@@ -2,6 +2,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.1em;
+}
 
 header{
     height: 70px;
@@ -38,5 +44,14 @@ main{
     padding-top: 7px;
     font-size: 0.8em;
     text-align: center;
-
+}
+#sect2{
+    height: 20vh;
+    margin-top: 3vh;
+    background-image: url(/images/bg-image.png);
+    text-align: center;
+    color: white;
+}
+#sect2 h1{
+    padding: 7vh 0 2vh;    
 }
