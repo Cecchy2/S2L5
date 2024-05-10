@@ -30,7 +30,7 @@ header img{
     font-size: 0.9em;
 }
 main{
-    height: 215vh;
+    height: 207vh;
     width: 95vw;
     padding: 0 2.5vw 0 2.5vw;
     background-color: rgb(233, 237, 238);
@@ -120,7 +120,7 @@ a{
 }
 #bottomText{
     padding-top: 0;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     text-align: center;
     
 
