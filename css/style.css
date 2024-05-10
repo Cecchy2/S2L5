@@ -34,12 +34,13 @@ main{
     width: 95vw;
     padding: 0 2.5vw 0 2.5vw;
     background-color: rgb(233, 237, 238);
+    padding-top: 3vh;
     
 }
 #sect1{
     height: 25px;
     background-color: rgb(245, 101, 2);
-    margin-top: 3vh;
+    
     color: white;
 }
 #sect1 p{
