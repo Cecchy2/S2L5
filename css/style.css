@@ -30,7 +30,7 @@ header img{
     font-size: 0.9em;
 }
 main{
-    height: 100vh;
+    height: 186vh;
     width: 95vw;
     padding: 0 2.5vw 0 2.5vw;
     background-color: rgb(233, 237, 238);
@@ -63,11 +63,11 @@ main{
     background-color: white;
     
 }
-#text{
-    padding: 1vh;
+.text{
+    padding: 1vh 0 0 1vh;
     
 }
-#text span{
+.text span{
     padding-left: 1vh;
     
 }
@@ -108,5 +108,44 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+#sect4{
+    height: 48vh;
+    background-image: url(/images/img_9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 3vh;
+}
+#bottomText{
+    padding-top: 0;
+    text-align: center;
+    margin-bottom: 2vh;
 
+}
+#sect5{
+    height: 48vh;
+    background-image: url(/images/img_10.png);
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+#bannerBottom{
+    background-color: rgb(53, 71, 91);
+    height: 40px;
+    text-align: center;
+    
+}
+#bannerBottom a {
+    color: white;
+    text-decoration: underline;
+    padding-top: 1%;
+}
+footer{
+    height: 15vh;
+    background-color: rgb(33, 48, 63) ;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+    padding-top: 3%;
+    
 }
